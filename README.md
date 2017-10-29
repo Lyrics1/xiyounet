@@ -9,7 +9,7 @@ Xiyounet_Projects
 
 ### 效果图
 
-[flex](./flex/img/haha.png)
+![flex](./flex/img/haha.png)
 
 
 ## sign 
