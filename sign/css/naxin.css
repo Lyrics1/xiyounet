@@ -1,0 +1,700 @@
+@media (min-width: 1920px) 
+{
+    .backgound-1{
+            position: relative;
+            width: 100%;
+            height: 550px;
+
+            background-attachment: fixed;
+            background-position: center 0;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .backgound-2{
+            position: relative;
+            width: 100%;
+            height: 600px;
+
+            background-attachment: fixed;
+            background-position: center 0;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .backgound-3{
+            position: relative;
+            width: 100%;
+            height: 600px;
+
+            background-attachment: fixed;
+            background-position: center 0;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .page-1{
+            width: 100%;
+            height: 550px;
+            background: #fff;
+        }
+        .page-2{
+            width: 100%;
+            height: 450px;
+            background: #fff;
+        }
+        .page-3{
+            width: 100%;
+            height: 610px;
+            background: #fff;
+        }
+        .center-control{
+            position: relative;
+            width: 40vw;
+            height: 550px;
+            margin: 0 auto;
+        }
+        .thehead{
+            font-size: 85px;
+            letter-spacing: 30px;
+            font-family: NSimSun;
+            margin: 0 0 25px 0;
+        }
+        .thehead-web{
+            font-size: 85px;
+            /* margin-top: 120px;
+            margin-left: 50px; */
+            margin: 0 0 25px 0;
+            font-family: NSimSun;
+            text-align: right;
+        }
+        .thehead-last{
+            font-size: 50px;
+            letter-spacing: 30px;
+            font-family: NSimSun;
+            margin: 0 0 25px 0;
+        }
+        .p-control{
+            font-size: 27px;
+            line-height: 25px;
+            opacity: 0.6; 
+        }
+        .a-add{
+            color: #12b7f5;
+        }
+        .ul{
+            margin-top: 30px;
+            height: 80px;
+            width: 100%;
+        }
+        .li{
+            float: right;
+            text-align: center;
+            width: 100px;
+            display: inline-block;
+        }
+        .li-left{
+            float: left;
+            text-align: center;
+            width: 100px;
+            display: inline-block;
+        }
+        .ul-left
+        {
+            margin-left: -20px;
+            padding: 0;
+            margin-top: 30px;
+            height: 80px;
+            width: 100%;
+        }
+/* ======================   安全   ====================== */
+        .i-gif{
+            animation: fa-spin 4s infinite linear!important;
+            font-size: 17em !important;
+            position: absolute;
+            right: 75px;
+            top: 65px;
+        }
+        .div-sequer{
+            position: absolute;
+            left: 7px;
+            top: 75px;
+            width: 23vw;
+        }
+/* ======================   web   ======================= */
+        .img-web{
+            height: 250px;
+            width: 250px;
+            margin: 92px 25px 30px 70px;
+        }
+        .div-web{
+            position: absolute;
+            right: 7px;
+            top: 75px;
+            width: 23vw;
+        }
+/* ======================   运维   ====================== */
+       .div-yunwei{
+            position: absolute;
+            left: 7px;
+            top: 75px;
+            width: 23vw;
+       }
+       .img-yunwei{
+            position: absolute;
+            right: 75px;
+            top: 100px;
+            height: 250px;
+            width: 250px;
+       }
+/* =====================   视觉，运营   ==================== */
+       .div-design{
+            width: 50%;
+            height: 450px;
+            float: left;
+            border-right: 2px solid #d8d8d8;
+       }
+       .div-degin-be{
+            position: absolute;
+            left: 6px;
+            top: 75px;
+            width: 380px;
+       }
+       .div-opre{
+            width: 50%;
+            height: 550px;
+            float: right;
+       }
+       .div-opre-be{
+            position: absolute;
+            right: 6px;
+            top: 75px;
+            width: 380px;
+       }
+       .div-page{
+            position: relative;
+            height: 450px;
+            width: 600px;
+            margin: 0 auto;
+       }
+       .i-gif-2{
+            font-size: 12em !important;
+            position: absolute;
+            right: 6px;
+            top: 108px;
+       }
+       .i-gif-3{
+            font-size: 10em !important;
+            position: absolute;
+            left: 6px;
+            top: 108px;
+       }
+/* ====================   表单   ===================== */
+       .part-input{
+            width: 600px;
+            margin: 0 auto;
+            height: 550px;
+       }
+       legend{
+            padding: 0;
+            margin-bottom: 20px;
+            font-size: 21px;
+            line-height: inherit;
+            color: #333;
+            border: 0;
+            display: block;
+            width:auto!important;
+       }
+       fieldset{
+            display: block;
+            -webkit-margin-start: 2px;
+            -webkit-margin-end: 2px;
+            -webkit-padding-before: 0.35em;
+            -webkit-padding-start: 0.75em;
+            -webkit-padding-end: 0.75em;
+            -webkit-padding-after: 0.625em;
+            min-width: -webkit-min-content;
+            border-width: 2px;
+            border-style: groove;
+            border-color: threedface;
+            border-image: initial;
+       }
+       .check{
+            height: 16px;
+       }
+       .p-check-right{
+            color: #2cb184;
+            display: inline-block;
+            margin-top: 6px;
+            margin-bottom: 0px;
+       }
+       .p-check-wrong{
+            color: #ee5757;
+            display: inline-block;
+            margin-top: 6px;
+            margin-bottom: 0px;
+       }
+       .button-a{
+            float: right;
+            margin-right: 20px;
+       }
+       .sex{
+            margin-bottom: 19px;
+       }
+       .checkcard{
+            width: 60%;
+            display: inline-block;
+       }
+       .checkimg{
+            width: 40%;
+            height: 34px;
+            float: right; 
+            text-align: center;
+       }
+       .check-p{
+            cursor: pointer;
+            color: #428bca;
+            position: absolute;
+            bottom: 0;
+            right: 35px;
+            margin-bottom: 0;
+       }
+       .field{
+            margin-top: 50px;
+       }
+       .err
+        {
+            height: 100px;
+            width: 300px;
+            background-color: black;
+            text-align: center;
+            color: white;
+            font-size: 30px;
+            padding-top: 33px;
+            opacity: 0;
+            display: none;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            margin-top: -100px;
+            margin-left: -150px;
+            z-index: 3;
+        }   
+}
+
+
+
+
+@media (min-width: 769px) and (max-width: 1919px)
+{
+    body{
+        overflow-x: hidden;
+    }
+    .err
+        {
+            height: 100px;
+            width: 300px;
+            background-color: black;
+            text-align: center;
+            color: white;
+            font-size: 30px;
+            padding-top: 33px;
+            opacity: 0;
+            display: none;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            margin-top: -100px;
+            margin-left: -150px;
+            z-index: 3;
+        }
+	.backgound-1{
+			position: relative;
+            width: 100%;
+            height: 550px;
+
+            background-attachment: fixed;
+            background-position: center 0;
+            background-repeat: no-repeat;
+            background-size: cover;
+		}
+		.backgound-2{
+			position: relative;
+            width: 100%;
+            height: 600px;
+
+            background-attachment: fixed;
+            background-position: center 0;
+            background-repeat: no-repeat;
+            background-size: cover;
+		}
+		.backgound-3{
+			position: relative;
+            width: 100%;
+            height: 600px;
+
+            background-attachment: fixed;
+            background-position: center 0;
+            background-repeat: no-repeat;
+            background-size: cover;
+		}
+		.page-1{
+	        width: 100%;
+            height: 550px;
+            background: #fff;
+		}
+		.page-2{
+	        width: 100%;
+            height: 480px;
+            background: #fff;
+		}
+        .page-3{
+            width: 100%;
+            height: 610px;
+            background: #fff;
+        }
+		.center-control{
+			position: relative;
+            width: 960px;
+            height: 550px;
+            margin: 0 auto;
+		}
+		.thehead{
+			font-size: 85px;
+			letter-spacing: 30px;
+			font-family: NSimSun;
+            margin: 0 0 25px 0;
+		}
+		.thehead-web{
+			font-size: 85px;
+			/* margin-top: 120px;
+			margin-left: 50px; */
+            margin: 0 0 25px 0;
+			font-family: NSimSun;
+			text-align: right;
+		}
+        .thehead-last{
+            font-size: 50px;
+            letter-spacing: 25px;
+            font-family: NSimSun;
+            margin: 0 0 25px 0;
+        }
+        .p-control{
+            font-size: 22px;
+            line-height: 25px;
+            opacity: 0.6; 
+        }
+        .a-add{
+            color: #12b7f5;
+        }
+        .ul{
+            margin-top: 30px;
+            height: 80px;
+            width: 100%;
+        }
+        .li{
+            float: right;
+            text-align: center;
+            width: 100px;
+            display: inline-block;
+        }
+        .li-left{
+            float: left;
+            text-align: center;
+            width: 100px;
+            display: inline-block;
+        }
+        .ul-left
+        {
+            margin-left: -20px;
+            padding: 0;
+            margin-top: 30px;
+            height: 80px;
+            width: 100%;
+        }
+/* ======================   安全   ====================== */
+        .i-gif{
+            animation: fa-spin 4s infinite linear!important;
+            font-size: 17em !important;
+            position: absolute;
+            right: 75px;
+            top: 65px;
+        }
+        .div-sequer{
+            position: absolute;
+            left: 7px;
+            top: 75px;
+            width: 450px;
+        }
+/* ======================   web   ======================= */
+        .img-web{
+        	height: 250px;
+        	width: 250px;
+        	margin: 92px 25px 30px 70px;
+        }
+        .div-web{
+        	position: absolute;
+            right: 7px;
+            top: 75px;
+            width: 450px;
+        }
+/* ======================   运维   ====================== */
+       .div-yunwei{
+            position: absolute;
+            left: 7px;
+            top: 75px;
+            width: 450px;
+       }
+       .img-yunwei{
+            position: absolute;
+            right: 75px;
+            top: 100px;
+            height: 250px;
+            width: 250px;
+       }
+/* =====================   视觉，运营   ==================== */
+       .div-design{
+            width: 50%;
+            height: 480px;
+            float: left;
+            border-right: 2px solid #d8d8d8;
+       }
+       .div-degin-be{
+            position: absolute;
+            left: 6px;
+            top: 75px;
+            width: 380px;
+       }
+       .div-opre{
+            width: 50%;
+            height: 480px;
+            float: left;
+       }
+       .div-opre-be{
+            position: absolute;
+            right: 6px;
+            top: 75px;
+            width: 30vw;
+       }
+       .div-page{
+            position: relative;
+            height: 480px;
+            width: 43vw;
+            margin: 0 auto;
+       }
+       .i-gif-2{
+            font-size: 12vw !important;
+            position: absolute;
+            right: 6px;
+            top: 108px;
+       }
+       .i-gif-3{
+            font-size: 10vw !important;
+            position: absolute;
+            left: 6px;
+            top: 108px;
+       }
+       .p-control-a{
+            font-size: 20px;
+            line-height: 25px;
+            opacity: 0.6;
+            width: 30vw;
+            
+       }
+/* ====================   表单   ===================== */
+       .part-input{
+            width: 600px;
+            margin: 0 auto;
+            height: 550px;
+       }
+       legend{
+            padding: 0;
+            margin-bottom: 20px;
+            font-size: 21px;
+            line-height: inherit;
+            color: #333;
+            border: 0;
+            display: block;
+            width:auto!important;
+       }
+       fieldset{
+            display: block;
+            -webkit-margin-start: 2px;
+            -webkit-margin-end: 2px;
+            -webkit-padding-before: 0.35em;
+            -webkit-padding-start: 0.75em;
+            -webkit-padding-end: 0.75em;
+            -webkit-padding-after: 0.625em;
+            min-width: -webkit-min-content;
+            border-width: 2px;
+            border-style: groove;
+            border-color: threedface;
+            border-image: initial;
+       }
+       .check{
+            height: 16px;
+       }
+       .p-check-right{
+            color: #2cb184;
+            display: inline-block;
+            margin-top: 6px;
+            margin-bottom: 0px;
+       }
+       .p-check-wrong{
+            color: #ee5757;
+            display: inline-block;
+            margin-top: 6px;
+            margin-bottom: 0px;
+       }
+       .sex{
+            margin-bottom: 19px;
+       }
+       .checkcard{
+            width: 60%;
+            display: inline-block;
+       }
+       .checkimg{
+            width: 40%;
+            height: 34px;
+            float: right; 
+            text-align: center;
+       }
+       .check-p{
+            cursor: pointer;
+            color: #428bca;
+            float: right;
+            margin-top: 30px;
+            margin-bottom: 0;
+       }
+       .field{
+            margin-top: 50px;
+       }
+       .button-a{
+            float: right;
+            margin-right: 20px;
+       }
+       #code{
+            height: 50px;
+            width: 120px;
+            float: right;
+       }
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) 
+{
+    .err
+        {
+            height: 100px;
+            width: 300px;
+            background-color: black;
+            text-align: center;
+            color: white;
+            font-size: 30px;
+            padding-top: 33px;
+            opacity: 0;
+            display: none;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            margin-top: -100px;
+            margin-left: -150px;
+            z-index: 3;
+        }
+       .backgound-1{
+            display: none;
+        }
+        .backgound-2{
+            display: none;
+        }
+        .backgound-3{
+            display: none;
+        }
+        .page-1{
+            display: none;
+        }
+        .page-2{
+            display: none;
+        }
+        .page-3{
+            margin-top: 110px;
+            width: 100%;
+            height: 850px;
+            background: #fff;
+        }
+        legend{
+            padding: 0;
+            margin-bottom: 20px;
+            font-size: 21px;
+            line-height: inherit;
+            color: #333;
+            border: 0;
+            display: block;
+            width:auto!important;
+       }
+       fieldset{
+            display: block;
+            -webkit-margin-start: 2px;
+            -webkit-margin-end: 2px;
+            -webkit-padding-before: 0.35em;
+            -webkit-padding-start: 0.75em;
+            -webkit-padding-end: 0.75em;
+            -webkit-padding-after: 0.625em;
+            min-width: -webkit-min-content;
+            border-width: 2px;
+            border-style: groove;
+            border-color: threedface;
+            border-image: initial;
+       }
+       .check{
+            height: 10px;
+            
+       }
+       .p-check-right{
+            color: #2cb184;
+            display: inline-block;
+            margin-top: 6px;
+            margin-bottom: 0px;
+       }
+       .p-check-wrong{
+            color: #ee5757;
+            display: inline-block;
+            margin-top: 6px;
+            margin-bottom: 0px;
+       }
+       .input-controla{
+            display: inline-block;
+            width: 85% !important;
+       }
+       .checkcard{
+            width:85%; 
+       }
+       .checkimg{
+            height: 50px;
+       }
+       .check-p{
+            cursor: pointer;
+            color: #428bca;
+            float: right;
+            margin-top: 30px;
+            margin-bottom: 0;
+       }
+       .button-a
+       {
+            float: right;
+            margin-left: 15px;
+            margin-bottom: 10px;
+       }
+       #code{
+            height: 50px;
+            width: 120px;
+            float: right;
+       }
+
+}
