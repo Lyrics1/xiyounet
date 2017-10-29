@@ -9,7 +9,7 @@ Xiyounet_Projects
 
 ### 效果图
 
-![flex](../../flex/img/haha.png)
+![flex](https://github.com/Lyrics1/xiyounet/blob/master/flex/img/haha.png)
 
 
 ## sign 
