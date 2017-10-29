@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>End</title>
+	<style type="text/css">
+		
+
+
+html,body{height:100%;}body{display:flex;flex-direction:column;align-items:center;justify-content:center;width:100%;background:$bg;}
+
+
+
+
+$cube-size: 200px;
+$cube-color-lg: rgba(#66AFCA, 0.15);
+$cube-color-sm: rgba(#42A6DD, 0.5);
+$cube-color-xsm: rgba(#FFEB3B, 0.2);
+$speed: 5000ms;
+
+.cube-container {
+  height: $cube-size;
+  width: $cube-size;
+  perspective: 1000px;
+  position: relative;
+}
+
+.cube {
+  height: 100%;
+  position: absolute;
+  // Preserve 3d effect of child elements
+  // default value is 'flat'.
+  transform-style: preserve-3d;
+  // tells browser not to render the back of the element
+  backface-visibility: visible;
+  width: 100%;
+  figure {
+    height: $cube-size;
+    margin: 0;
+    position: absolute;
+    width: $cube-size;
+  }
+}
+
+.cube-large {
+  figure {
+    outline: 1px solid lighten($cube-color-lg, 20%);
+    background: $cube-color-lg;
+  }
+}
+
+.cube-small {
+  z-index: -1;
+  figure {
+    outline: 1px solid lighten($cube-color-sm, 20%);
+    background: $cube-color-sm;
+  }
+}
+
+
+
+.front {
+  transform: translateZ($cube-size/2);
+}
+
+.back {
+  transform: rotateY(180deg) rotateX(0deg) translateZ($cube-size/2);
+}
+
+.left {
+  transform: rotateY(-90deg) translateZ($cube-size/2);
+}
+
+.right {
+  transform: rotateY(90deg) translateZ($cube-size/2);
+}
+
+.top {
+  transform: rotateY(90deg) translateZ($cube-size/2);
+}
+
+.bottom {
+  transform: rotateX(-90deg) rotateZ(-180deg) translateZ($cube-size/2);
+}
+
+
+
+
+.cube-large {
+  animation: large-cube-spin $speed infinite linear;
+}
+
+.cube-small {
+  animation: small-cube-spin $speed infinite reverse linear;
+}
+
+@keyframes large-cube-spin {
+  from { transform: rotateY(0); }
+  to   { transform: rotateY(-360deg); }
+}
+
+@keyframes small-cube-spin {
+  from { transform: scale(.5) rotateY(0); }
+  to   { transform: scale(.5) rotateY(-360deg); }
+}
+	</style>
+</head>
+<body>
+	<div class="cube-container">
+  <div class="cube cube-large">
+    <figure class="front"></figure>
+    <figure class="back"></figure>
+    <figure class="right"></figure>
+    <figure class="left"></figure>
+    <figure class="top"></figure>
+    <figure class="bottom"></figure>
+  </div>
+  
+  <div class="cube cube-small">
+    <figure class="front"></figure>
+    <figure class="back"></figure>
+    <figure class="right"></figure>
+    <figure class="left"></figure>
+    <figure class="top"></figure>
+    <figure class="bottom"></figure>
+  </div>
+</div>
+</body>
+</html>
