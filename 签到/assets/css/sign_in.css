@@ -1,0 +1,397 @@
+#file{
+	opacity: 0;
+	position: absolute;
+	width: 99%;
+	height: 35px;
+	z-index: 10;
+	left: 0px;
+	top:0px;
+  padding-top: 130px;
+}
+label{
+    font-family:"Helvetica Neue", Helvetica, "PingFang SC", "Microsoft Yahei",
+    "WenQuanYi Micro Hei", Arial, Verdana, 'Open Sans', sans-serif; !important;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: rgba(0, 0, 0, 0.73);
+}
+.submit{
+	position: relative;
+	width: 45%;
+	font-size: 1em;
+    left: -24%;
+    top: -178px;
+    height: 132px;
+    margin-bottom: -21px;
+}
+#submit{
+	position: relative;
+	width: 90px;
+	display: block;
+	text-decoration: none;
+	border: 1px solid #eee;
+	text-align: center;
+	overflow: hidden;
+	line-height: 30px;
+	z-index: 2;
+}
+#dis{
+    background-color: rgba(147, 137, 150, 0.04);
+    color: rgba(0, 0, 0, 0.39);
+}
+.tip{
+  position: relative;
+  top: -151px;
+}
+.image{
+   width: 32%;
+   height: 134px;
+   display: block;
+   border: 1px solid #000;
+   margin: 17px auto;
+   margin-left: 4%;
+   margin-bottom: 45px;
+   background: #eee url(../images/21.jpg) no-repeat center;
+
+}
+.col-sm-4 p,.col-sm-3 p{
+	color: red;
+	font-size: 1.2rem;
+	line-height: 32px;
+	letter-spacing: 1px;
+}
+.col-sm-6{
+  margin-top: 20px;
+}
+#photo{
+	font-weight: bolder;
+	padding: 10px 10px;
+}
+#bottom{
+	margin: 10px auto;
+	width: 90%;
+	position: relative;
+	top: 20px;
+}
+.secret{
+	width: 130px;
+	height: 30px;
+	margin: 17px 0px 20px;
+}
+.data{
+	width: 31px;
+	height: 30px;
+	float: left;
+	margin-left: 1px;
+	text-align: center;
+	line-height: 30px;
+}
+.top{
+	height: 30px;
+}
+.middle{
+	width: 55%;
+	margin: 0px auto;
+}
+.form-group.has-error {
+    margin-bottom: 0px;
+}
+.form-group.has-success{
+    margin-bottom: 0px;
+}
+.bottom{
+	width: 35%;
+	background: white !important;
+    color: #000;
+    border:3px solid rgba(0, 0, 0, 0.31);
+    font-weight: blod;
+	height: 40px;
+
+	margin: 0px auto;
+    display: block;
+    outline: 0px;
+
+}
+.p{
+	margin-left: 0px;
+  margin-top: -28px;
+  margin-bottom: 23px;
+}
+.tip{
+  margin-bottom: -180px;
+}
+.current{
+	display: block;
+}
+.b{
+       
+  width: 80%;
+  position: relative !important;
+  top: 20px !important;
+  margin-bottom: -20px;
+  display: none;
+}
+#b1{
+  position: relative !important;
+  top: 20px !important;
+}
+@media(max-width:462px){
+.image{
+    	width: 45%;
+    	height: 134px;
+}
+.middle{
+    	width: 65%;
+}
+.submit{
+       position: relative;
+       width: 45%;
+       font-size: 1em;
+       left: -24%;
+       top: -178px;
+       height: 132px;
+       margin: 0px auto -21px;
+       overflow: hidden;
+}
+.p{
+    margin-top: -25px;
+}
+.image{
+	background: #eee url(../images/20.jpg) no-repeat center;
+}
+}
+@media(min-width: 431px){
+	.image{
+		background: #eee url(../images/19.jpg) no-repeat center;
+	}
+}
+@media(min-width: 463px) and (max-width:555px){
+.submit{
+   	     width:32%; 
+   	     position: relative;
+   	     left: 5%;
+   	     margin-bottom: -21px;
+         overflow: hidden;
+}
+#file{
+    width: 99%;
+}
+.image{
+   	   width:33% ;
+   	   height: 134px;
+   	   background: #eee url(../images/20.jpg) no-repeat center;
+}
+}
+@media (min-width: 556px) and (max-width: 693px) {
+.submit{
+		width: 32%;
+		position: relative;
+		top: -150px;
+		margin-bottom: -143px;
+		left: 4.5%;
+	  overflow: hidden;
+    margin-bottom: 107px !important;
+}
+#file{
+      width: 99%;
+      top: -34px;
+}
+.image{
+		width: 32%;
+		height: 134px;
+		margin: 17px auto;
+		margin-left: 4%;
+    margin-bottom: 52px;
+     background: #eee url(../images/20.jpg) no-repeat center;
+  }
+.tip{
+    position: relative;
+    width: 100%;
+    height: 24px;
+    top: -284px;
+    margin-bottom: -309px;
+  }
+}
+@media(min-width: 694px) and (max-width:767px){
+.image{
+    background: #eee url(../images/19.jpg) no-repeat center;
+ }
+ #file{
+  width: 70%;
+  left: 63%;
+ }
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+#file {
+    opacity: 0;
+    position: absolute;
+
+    width: 87%;
+    height: 35px;
+    z-index: 10;
+    left: 0%;
+    top: -111px;
+    top: 0px;
+    border: 1px solid red;
+    padding-top: 186px;
+}
+.tip{
+  position: relative;
+  top: -51px;
+}
+.p{
+    margin-left: 12px;
+    margin-top: 0px;
+}
+ .image{
+  width: 80%;
+  height: 190px;
+  background: #eee url(../images/21.jpg) no-repeat center;
+    }
+.submit{
+    width: 87%;
+    margin: 0px auto;
+    padding-right: 20px;
+    position: relative;
+    left: -1%;
+    top: -234px;
+    height: 187px;
+    margin-bottom: -178px;
+    overflow: hidden;
+  }
+ .secret{
+  position: relative;
+  left: -24%;
+  margin: 2px 0px 30px;
+ }
+
+}
+
+@media(min-width: 992px) and (max-width: 1199px){
+  .p{
+    margin-bottom: -12px;
+	}
+  .tip{
+    position: relative;
+    top: -45px;
+  }
+   .image{
+    	 background:  url(../images/1.jpg) no-repeat center;
+    }
+}
+ @media(min-width: 768px) and (max-width: 1199px){
+.middle{
+  width: 100%;
+}
+.submit{
+    width: 87%;
+    margin: 0px auto;
+    padding-right: 20px;
+    position: relative;
+    left: -1%;
+    top: -234px;
+    height: 187px;
+    margin-bottom: -178px;
+    overflow: hidden;
+}
+#file {
+  opacity: 0;
+  width: 89%;
+  position: absolute;
+  height: 35px;
+  z-index: 10;
+  left: 0px;
+  top: 0px;
+  padding-top: 186px;
+}
+.secret{
+  position: relative;
+  left: -24%;
+}
+.image{
+   width: 80%;
+   height: 190px;
+}
+.secret{
+  margin: 0px 0px;
+}
+.p{
+    margin-left: 12px;
+    margin-top: 0px;
+}
+ .bottom{
+  position: relative;
+  left: -2%;
+ }
+}
+@media(min-width: 1200px){
+	.p{
+	   margin-left: 0px;
+    position: relative;
+    top: 27px;
+    margin-bottom: -19px;
+	}
+	.middle{
+		width: 98%;
+		position: relative;
+		left: -8%
+	}
+  .submit{
+    	 width: 67%;
+    	 margin: 0px auto;
+    	 padding-right: 20px;
+    	 position: relative;
+    	 left: -12%;
+       margin-bottom: -100px;
+    }
+  .image{
+       width: 61%;
+       height: 200px;
+       background: #eee url(../images/1.jpg) no-repeat center;
+    }
+    .secret{
+    	margin: 0px 0px;
+    }
+    .col-sm-2{
+    	width: 25% !important;
+    }
+    .col-sm-7{
+    		width: 50%;
+    }
+    .tip{
+      position: relative;
+      top: -71px;
+      left: 10px;
+    }
+    #file {
+    opacity: 0;
+    position: absolute;
+    width: 88%;
+    height: 35px;
+    z-index: 10;
+    left: 0px;
+    top: -65px;
+    padding-top: 196px;
+   }
+   .bottom{
+      position: relative;
+      left: -3%;
+   }
+}
+
+@media (min-width: 1270px) and (min-height: 980px) {
+    footer{
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+    }
+    }
+}
+@media(min-width: 770px) and (min-height:1162px){
+  footer{
+      position: absolute;
+      bottom: 0px;
+      width: 100%;
+  }
+}

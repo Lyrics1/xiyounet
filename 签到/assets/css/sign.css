@@ -1,0 +1,106 @@
+body{
+	margin:0;
+	padding: 0;
+	background-color:#fff;
+	
+	z-index: 1;
+	height: 100%;
+
+	
+}
+html{
+	margin:0;
+	padding: 0;
+}
+#continer{
+	border: 1px solid #8F8C8C;
+	width: 100%;
+	height: 5em;
+
+
+}
+
+#continer-blog{
+	
+	margin-top:2% ;
+	margin-left: 35%; 
+	border: 0px solid #8F8C8C;
+	width: 30%;
+	height: auto;
+	padding: 2em;
+	border-radius: 5px;
+	z-index: 100;
+	box-shadow: -2px 0 0 #EDEBEB,
+	0 -2px 0 #EDEBEB,
+	0 2px 0 #EDEBEB,
+	2px 0 0 #EDEBEB;
+
+
+}
+#tip{
+	padding-top: 2%;
+	margin-bottom: 0%;
+}
+#tip li{
+	display: block;
+}
+#login{
+	text-align: center;
+	color: #fff;
+	line-height: 3em;
+	font-size: 2em;
+	background-color: #8F8B8B;
+	margin-bottom: 2em;
+}
+
+#enter{
+	width:15em ;
+	height:3em;
+	margin-right: 1em;
+}
+#passward,#username{
+	height:3em
+}
+#cookie{
+	color: #4A4848;
+
+}
+
+#styleall{
+	margin-bottom:3em ;
+
+}
+@media(max-width: 768px)
+{
+	#continer-blog{
+
+	margin-left: 8%; /*#C7C4C4;*/
+	margin-top:30%;
+	width: 84%;	
+	}
+
+	#tip{
+	padding-top: 7%;
+	margin-bottom: -15%;
+
+
+}
+}
+@media(min-width: 900px) and (min-height: 935px){
+	#footer{
+        position: absolute;
+        bottom:0px;
+        width: 100%;
+	}
+}
+@media(min-width: 1000px) and (min-height: 784px){
+	#footer{
+        position: absolute;
+        bottom:0px;
+        width: 100%;
+	}
+}
+
+
+/*.glyphicon-user1:before {
+    content: url(QQ截图20161025221912221.jpg);*/

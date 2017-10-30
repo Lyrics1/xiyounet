@@ -1,0 +1,155 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+
+	
+
+	<title>平台</title>
+
+	<!--<link rel="shortcut icon" href="assets/images/gt_favicon.png">-->
+
+	<link rel="stylesheet" media="screen" href="../assets/css/Opensans.css">
+	<link rel="stylesheet" href="../assets/css/inform.css">
+	<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../assets/css/font-awesome.min.css">
+
+	<!-- Custom styles for our template -->
+	<link rel="stylesheet" href="../assets/css/bootstrap-theme.css" media="screen" >
+	<link rel="stylesheet" href="../assets/css/main.css">
+	<link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+	<!-- Fixed navbar -->
+	<div class="navbar navbar-inverse navbar-fixed-top headroom" >
+		<div class="container">
+			<div class="navbar-header">
+				<!-- Button for smallest screens -->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+				<a class="navbar-brand" href="../index.html"><img src="../assets/images/logo.png" alt="Association of Network and Technology"></a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav pull-right">
+					<li><a href="../index.html">主页</a></li>
+					<li><a href="../../blog.xiyounet.org/default.htm">专栏</a></li>
+					<li><a href="../../lib.xiyounet.org/default.htm">网协图书馆</a></li>
+					<li><a href="about.html">关于</a></li>
+					<li class="active"><a href="../contact.html">联系我们</a></li>
+					<!-- <li><a class="btn" href="signin.html">SIGN IN / SIGN UP</a></li> -->
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div>
+	</div>
+	<!-- /.navbar -->
+
+	<header id="head" class="secondary"></header>
+<!--container-->
+<div class="container">
+<div class="middle">
+<div class="row">
+<form action="./action.php" method="post" enctype="multipart/form-data" class="form-horizontal" role="form">
+     <div class="bg2">
+     <div class="bg">
+     <center><h2>H3C</h2><label>登录</label></center>
+     </div>
+	<div class="form-group" id="top">
+    <label for="inputEmail3" class="col-sm-3 control-label">账&nbsp;&nbsp;  号</label>
+    <div class="col-sm-6">
+      <input type="text" class="form-control" id="inputEmail3"  name="name">
+    </div>
+    </div>
+	<div class="form-group" id="top">
+    <label for="inputEmail3" class="col-sm-3 control-label">密 &nbsp;&nbsp; 码</label>
+    <div class="col-sm-6">
+    <input type="password" class="form-control" id="inputEmail3"  name="pass">
+    </div>
+    </div>
+    <div class="form-group" id="top">
+    <label for="inputEmail3" class="col-sm-3 control-label">验证码</label>
+    <div class="col-sm-3">
+      <input type="text" class="form-control" id="inputEmail3" name="validate">
+    </div>
+   
+	<!--验证码:-->
+<img  class="img" src='../code.php' onclick="javascript:this.src='../code.php?kk='+Math.random();"></img>
+	 </div>
+	
+	<input class="btn btn-default" type="submit" value="提交" id="bottom">
+</div>	
+</form>
+</div>
+</div>
+</div>
+<!-- end of container -->
+	<footer id="footer" class="top-space">
+
+		<div class="footer1">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-3 widget">
+						<h3 class="widget-title">联系我们</h3>
+						<div class="widget-body">
+							<address>陕西省西安市长安区西安邮电大学 东区 FZ130	</address>
+								<p><b>邮箱:</b><a href="mailto:#">admin@xiyouant.org</a><br></p>
+						</div>
+					</div>
+
+					<div class="col-md-3 widget">
+						<h3 class="widget-title">Follow Us</h3>
+						<div class="widget-body">
+							<p class="follow-me-icons">
+								<a class="social-btn bspopover" data-toggle="popover" data-placement="top" data-trigger="hover" data-html="true"data-content="<img src=assets/images/wechat.jpg style='width: 140px; height: 140px;'>" data-original-title="" title="">
+      							<i class="fa fa-weixin fa-2"></i>
+    							</a>
+								<a href="../https@github.com/xiyouant" target="_blank"><i class="fa fa-github fa-2"></i></a>
+							</p>
+						</div>
+					</div>
+
+					<div class="col-md-6 widget">
+						<h3 class="widget-title">内容许可</h3>
+						<div class="widget-body">
+							<p>本站由 <a href="../https@www.digitalocean.com/@refcode=3c8422b30f9d">DigitalOcean</a> 提供服务器支持 七牛 提供 CDN 存储服务</p>
+							<p>除特别说明外，用户内容均采用
+							<a rel="license" target="_blank" href="../creativecommons.org/licenses/by-sa/3.0/cn/default.htm">知识共享署名-相同方式共享 3.0 中国大陆许可协议</a>进行许可</p>
+						</div>
+					</div>
+
+				</div> <!-- /row of widgets -->
+			</div>
+		</div>
+		<div class="footer2">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-6 widget">
+						<div class="widget-body">
+							<p class="simplenav">
+								<a href="#">主页</a> |
+								<a href="../blog.xiyounet.org/default.htm">专栏</a> |
+								<a href="../lib.xiyounet.org/default.htm">网协图书馆</a> |
+								<a href="contact.html">联系我们</a>
+							</p>
+						</div>
+					</div>
+
+					<div class="col-md-6 widget">
+						<div class="widget-body">
+							<p class="text-center">Copyright &copy; 2010-<span id="copyright"></span> 西安邮电大学计算机院网络科技协会.</p>
+							<script>var year = new Date().getFullYear();document.getElementById("copyright").innerHTML=year;</script>
+						</div>
+					</div>
+                 </div> <!-- /row of widgets -->
+			</div>
+		</div>
+
+	</footer>
+	<script src="../../cdn.staticfile.org/jquery/2.1.1-rc2/jquery.min.js"></script>
+	<script src="../assets/js/bootstrap.min.js"></script>
+	<script src="../assets/js/headroom.min.js"></script>
+	<script src="../assets/js/jQuery.headroom.min.js"></script>
+	<script src="../assets/js/template.js"></script>
+</body>
+</html>
